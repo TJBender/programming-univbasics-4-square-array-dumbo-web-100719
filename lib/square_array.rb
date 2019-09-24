@@ -5,5 +5,5 @@ def square_array(array)
     p array[i] **= array[i]
   i+=1
   end
-    return newArr.push(num)
+    return newArr.push(array[i])
 end
