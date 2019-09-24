@@ -1,9 +1,9 @@
 def square_array(array)
   i = 0
-  counter = 1
-  while i < array.length do
-     counter *= array[i]
-    i+=1
+  while i < array.length
+  num = array[i] # 2
+  p newNums = num * num #2 * 2
+  i+=1
   end
-  return counter
+    return newNums
 end
