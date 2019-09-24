@@ -2,8 +2,7 @@ def square_array(array)
   newArr = []
   i = 0
   while i < array.length
-  num = array[i] 
-  p num *= num
+    p array[i] **= array[i]
   i+=1
   end
     return newArr.push(num)
