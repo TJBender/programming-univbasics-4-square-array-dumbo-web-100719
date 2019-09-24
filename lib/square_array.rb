@@ -6,5 +6,5 @@ def square_array(array)
   p num *= num
   i+=1
   end
-    return num
+    return newArr.push(num)
 end
